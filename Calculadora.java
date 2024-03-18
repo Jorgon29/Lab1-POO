@@ -13,6 +13,17 @@ public class Calculadora {
         return n1 + n2;
     }
 
+    public static int Restar(){
+        Scanner sc = new Scanner(System.out);
+        System.out.println("1er numero");
+        float n1 = sc.nextFloat();
+        System.out.println("2do numero");
+        float n2 = sc.nextFloat();
+        System.out.println(n1 + " - " + n2 + " = " + (n1-n2));
+        return n1 - n2;
+    }
+
+    
     public static void main(String[] args){
         opcionActual = 0;
         do {
